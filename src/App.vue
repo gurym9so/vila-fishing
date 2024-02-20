@@ -1,7 +1,19 @@
 <template>
-  <h1>jjdjd</h1>
+  <div class="md-body">
+    <main_header />
+  </div>
 </template>
 
-<script></script>
+<script>
+import main_header from "@/components/main_header.vue";
+export default {
+  components: { main_header },
+};
+</script>
 
-<style></style>
+<style>
+.md-body {
+  width: 100%;
+  position: relative;
+}
+</style>
